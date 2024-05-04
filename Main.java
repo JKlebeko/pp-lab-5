@@ -1,5 +1,6 @@
 import company.beans.Person;
 import company.exceptions.InvalidAgeException;
+import company.implementations.EmailMessenger;
 
 public class Main {
 
@@ -12,5 +13,9 @@ public class Main {
         }
 
 
+
+
+        EmailMessenger emailMessenger = new EmailMessenger();
+        emailMessenger.sendMessage("dsdasd");
     }
     }
