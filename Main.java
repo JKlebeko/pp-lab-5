@@ -7,11 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //try {
-         //   Person person=new Person(135,"Jaca");
-        //} catch (InvalidAgeException e) {
-        //    System.out.println(e.getMessage());
-        //}
+        try {
+            Person person=new Person(135,"Jaca");
+        } catch (InvalidAgeException e) {
+            System.out.println(e.getMessage());
+        }
         EmailMessenger emailMessenger = new EmailMessenger();
 
         emailMessenger.sendMessage(+add(2,3)+" Wynik");
