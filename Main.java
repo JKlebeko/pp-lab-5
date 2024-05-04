@@ -9,13 +9,13 @@ public class Main {
         try {
             Person person=new Person(135,"Jaca");
         } catch (InvalidAgeException e) {
-            System.out.println(e.getLocalizedMessage());
+            System.out.println(e.getMessage());
         }
 
 
 
 
         EmailMessenger emailMessenger = new EmailMessenger();
-        emailMessenger.sendMessage("dsdasd");
+        emailMessenger.sendMessage("Wiadomosc");
     }
     }
